@@ -14,7 +14,7 @@ export default class ImportWord extends Plugin {
 		// const command = editor.commands.get( 'uploadVideo' );
 
 		// Add the "importWordButton" to feature components.
-		editor.ui.componentFactory.add( 'importWordButton', locale => {
+		editor.ui.componentFactory.add( 'importWord', locale => {
 			const view = new FileDialogButtonView( locale );
 
 			view.set( {
