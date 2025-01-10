@@ -37,6 +37,7 @@ import 'ckeditor5/ckeditor5.css';
 
 ClassicEditor
 	.create( document.getElementById( 'editor' )!, {
+		licenseKey: 'GPL',
 		plugins: [
 			ImportWord,
 			Essentials,

@@ -80,9 +80,7 @@
       "stylelint --quiet --allow-empty-input"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "dependencies": {
+    "mammoth": "^1.9.0"
   }
 }
