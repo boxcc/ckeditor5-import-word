@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    {
+      "name": "Import word",
+      "className": "ImportWord",
+      "description": "Adds text to the editor.",
+      "path": "src/importword.ts",
+      "uiComponents": [
+        {
+          "name": "importWordButton",
+          "type": "Button",
+          "iconPath": "theme/icons/ckeditor.svg"
+        }
+      ]
+    }
+  ]
+}
