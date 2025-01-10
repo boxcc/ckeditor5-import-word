@@ -66,7 +66,7 @@ ClassicEditor
 			'undo',
 			'redo',
 			'|',
-			'importWordButton',
+			'importWord',
 			'|',
 			'heading',
 			'|',
